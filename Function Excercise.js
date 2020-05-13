@@ -61,10 +61,10 @@ for(let i = 0; i < array.length; i++){
     let people1 = array[i];
     if(oldestPerson){
         if(people1.age > oldestPerson.age){
-    oldesntPerson = people1;
+    oldestPerson = people1;
         }
 }else {
     oldestPerson = people1;
 
-return oldestPerson.name}
-}}console.log(getOldest(people))
+}}return oldestPerson.name}
+console.log(getOldest(people))
